@@ -1,14 +1,9 @@
-import Navbar from "./components/Navbar";
-import PortfolioContainer from "./components/PortfolioContainer";
+import React from "react";
+import Home from "./components/Home";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 
 
-function App() {
-  return (
-    <div className="App">
-      <Navbar/>
-    </div>
-  );
-}
+const App = () => <Home />;
 
-export default App;
+export default App; 
